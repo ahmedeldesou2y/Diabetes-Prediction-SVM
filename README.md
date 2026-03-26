@@ -21,3 +21,16 @@ This project aims to build a machine learning model to predict whether a patient
 
 ## 📈 Confusion Matrix
 The project includes a visual representation of the model's performance using a Confusion Matrix, demonstrating its strong ability to identify true negatives and its improved recall for true positives.
+
+## 🧠 Challenges & Solutions
+One of the main challenges in this project was dealing with medical data that is slightly imbalanced. Initially, the baseline linear model struggled to correctly identify diabetic patients (Class 1). To solve this, I implemented feature scaling using `StandardScaler` and switched to an **RBF kernel**, which significantly improved the model's *Recall* for positive cases and bumped the overall accuracy to 79%.
+
+## 🔮 Future Work
+As a next step to improve this project, I plan to:
+* Experiment with ensemble methods like **Random Forest** or **XGBoost** to see if they can yield higher accuracy.
+* Perform more advanced hyperparameter tuning using `GridSearchCV`.
+
+## 🤝 Let's Connect!
+I am always open to feedback and suggestions. Feel free to reach out to me on www.linkedin.com/in/ahmedeldesou2y
+
+ to discuss this project, share advice, or explore potential collaborations!
